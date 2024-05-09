@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.primeiro-elemento {
+    width: 100vw;
+    background-color: aquamarine;
+}
+
+.segundo-elemento {
+    width: 100%;
+    background-color: blue;
+}

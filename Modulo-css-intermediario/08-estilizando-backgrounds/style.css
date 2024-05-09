@@ -1,0 +1,45 @@
+p {
+    color: blueviolet;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bg {
+    background-color: aquamarine;
+    background-image: url('./image/fotos-de-animais-fofos-12.jpeg.crdownload');
+}
+
+.bg-image {
+    width: 720px;
+    height: 540px;
+}
+
+.bg-repeat {
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.bg-size-cover {
+    background-size: cover;
+    height: 800px;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+    height: 800px;
+}
+
+.bg-position {
+    background-position:  center;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+/* De forma resumida ficaria assim: 
+.bg-position: {
+    height: 800px;
+    background: #000 url('./image/fotos-de-animais-fofos-12.jpeg.crdownload') no-repeat right top;
+}
+
+*/
+

@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    background-color: cadetblue;
+    list-style: square inside url('./image/icone.png');
+}
+
+ul li {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+ol {
+    background-color: cornflowerblue;
+    list-style: decimal-leading-zero inside;
+}
+
+ol li {
+    border: 1px solid black;
+    padding: 20px;
+}

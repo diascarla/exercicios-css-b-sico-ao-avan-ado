@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: aquamarine;
+}
+
+.menu{
+    background-color: cornflowerblue;
+}
+
+.secao-principal{
+    background-color: hotpink;
+}
+
+.aside{
+    background-color: orange;
+}
+
+.rodape{
+    background-color: green;
+}
+
+.container{
+    display: grid;
+    grid: 
+    "cabecalho cabecalho cabecalho" 100px
+    "menu secao-principal aside" 400px
+    "rodape rodape rodape" 50px 
+    / 160px auto 160px;
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+}
+
+.menu{
+    grid-area: menu;
+}
+
+.secao-principal{
+    grid-area: secao-principal;
+}
+
+.aside{
+    grid-area: aside;
+}
+
+.rodape{
+    grid-area: rodape;
+}

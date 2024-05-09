@@ -1,0 +1,16 @@
+a {
+    cursor:default;
+}
+
+a:visited {
+    color: palevioletred;
+}
+
+a:active {
+    color: aquamarine;
+}
+
+/* a:hover {
+    background-color: darkmagenta;
+    color: antiquewhite;
+} */

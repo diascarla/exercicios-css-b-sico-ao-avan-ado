@@ -1,0 +1,11 @@
+#meu-paragrafo {
+    background-color: chartreuse !important;
+}
+
+.container-especificidade p {
+    background-color: rgb(255, 0, 221);
+}
+
+p {
+    background-color: blueviolet;
+}
